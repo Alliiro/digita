@@ -1,0 +1,53 @@
+<html lang="pt-br">
+<head>
+    <title>Digitação</title>
+    <!-- Link para o CSS aqui -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      Digitando -Alison
+    </div>
+    <div class="header">
+      <div class="wpm">
+        <div class="header_text">PP/M</div>
+        <div class="curr_wpm">100</div>
+      </div>
+      <div class="cpm">
+        <div class="header_text">LP/M</div>
+        <div class="curr_cpm">100</div>
+      </div>
+      <div class="errors">
+        <div class="header_text">Erros</div>
+        <div class="curr_errors">0</div>
+      </div>
+      <div class="timer">
+        <div class="header_text">Tempo</div>
+        <div class="curr_time">30s</div>
+      </div>
+      <div class="accuracy">
+        <div class="header_text">%Acertos%</div>
+        <div class="curr_accuracy">100</div>
+      </div>
+    </div>
+  
+    <div class="quote">
+      O texto a ser digitado vai aparecer aqui.
+    </div>
+    <textarea class="input_area"
+      placeholder="digite aqui..."
+      oninput="processCurrentText()"
+      onfocus="startGame()">
+    </textarea>
+    <button class="restart_btn"
+      onclick="resetValues()">
+      Restart
+    </button>
+  </div>
+  
+  <!-- Link para o JS aqui -->
+  <script src="game.js">
+  </script>
+</body>
+</html>
