@@ -3,7 +3,7 @@ let TIME_LIMIT = 30
   
 // define quotes to be used
 let quotes_array = [
-  'Eu não deveria usar coisas como "Ham" no WhatsApp',
+  'asdw jkli asdw jkli asdw jkli asdw jkli', 'ASDW JKLI ASDW JKLI ASDW JKLI ASDW JKLI'
 ];
   
 // selecting required elements
