@@ -1,37 +1,40 @@
 body {
-	background-color: #cccccc;
+	background-color: #ff0000;
 	color: black;
 	text-align: center;
   }
-	
+
   .container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
   }
-	
+
   .heading {
 	margin-bottom: 20px;
 	font-size: 3rem;
-	color: black;
+	color: rgb(0, 0, 0);
   }
-	
+
   .header {
 	display: flex;
 	align-items: center;
   }
-	
+
   .timer, .errors, .accuracy,
   .cpm, .wpm {
 	background-color: rgb(145, 145, 145);
-	height: 60px;
-	width: 70px;
+	align-items: flex-start;
+	align-items: center;
+	height: 100px;
+	width: 120px;
+	margin-block: 15px;
 	margin: 8px;
-	padding: 12px;
+	padding: 40px;
 	border-radius: 20%;
 	box-shadow: black 5px 8px 5px;
   }
-	
+
   .cpm, .wpm  {
 	display: none;
   }
@@ -59,7 +62,7 @@ body {
 	
   .input_area {
 	background-color: #f5f5c6;
-	height: 80px;
+	height: 160px;
 	width: 40%;
 	font-size: 1.5rem;
 	font-weight: 600;

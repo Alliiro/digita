@@ -1,11 +1,14 @@
 // define the time limit
-let TIME_LIMIT = 30
+let TIME_LIMIT = 500;
   
 // define quotes to be used
 let quotes_array = [
-  'asdw jkli asdw jkli asdw jkli asdw jkli', 'ASDW JKLI ASDW JKLI ASDW JKLI ASDW JKLI'
+	'asdf jklç asdf jklç asdf jklç asdf jklç\n asdf jklç asdf jklç asdf jklç asdf jklç\n asdf jklç asdf jklç asdf jklç asdf jklç\n asdf jklç asdf jklç asdf jklç asdf jklç',
+	'LiJk Kjil OpDo OlKj Jiçk PLIJ ÇLKM',
+  	'Para usar letra MAIÚSCULA se usa o Shift.',
+	'Quando é nescessario usar acentos, o acento tem que ser precionado antes.',
 ];
-  
+
 // selecting required elements
 let timer_text = document.querySelector(".curr_time");
 let accuracy_text = document.querySelector(".curr_accuracy");
